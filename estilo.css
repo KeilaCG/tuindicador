@@ -1,0 +1,31 @@
+
+/* PARA USAR LA CLASE DEL ELEMENTO LA SINTAXIS ES .nombredelaclase y entre corchetes van las instrucciones */
+.container {
+    text-align: center;
+    background-color: gainsboro;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline #000;
+}
+
+.btn {
+    margin-right: 50px !important;
+    color: #000  !important;
+    padding: 20px 15px 50px 16px !important;
+}
+
+.style-lista {
+    list-style: disc  !important;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.monto {
+    font-weight: 700 !important; 
+}

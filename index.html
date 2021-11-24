@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es"
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tu Indicador Economico Diario</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- agregamos el archivo css -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- CADA ELEMENTO DEBE TENER UNA CLASE PARA PODER CONECTAR CON EL CSS -->
+    <div class="container">
+        <div class="section">
+            <p class="title">Indicador Economico</p>
+            <button class="btn green" id="dolar">Dolar</button>
+            <button class="btn yellow" id="euro">Euro</button>
+            <button class="btn orange" id="bitcoin">Bitcoin</button>
+        </div>
+        <div class="section">
+            
+            <ul id="resultado"> </ul>
+        </div>
+    </div>
+
+    <script src="moneda.js"></script>
+</body>
+</html>
+
+
+
+
